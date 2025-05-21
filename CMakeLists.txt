@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.31)
-project(untitled1)
+project(RandomS)
 
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_AUTOMOC ON)
@@ -14,7 +14,7 @@ find_package(Qt6 COMPONENTS
         Widgets
         REQUIRED)
 
-add_executable(untitled1 
+add_executable(RandomS
         main.cpp
         stringgenerator.cpp
         stringgenerator.h
@@ -27,7 +27,7 @@ add_executable(untitled1
         mainwindow.cpp
         mainwindow.h
 )
-target_link_libraries(untitled1
+target_link_libraries(RandomS
         Qt::Core
         Qt::Gui
         Qt::Widgets
