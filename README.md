@@ -41,7 +41,3 @@ Random String Generator is a user-friendly desktop application that allows you t
 - **StringGenerator**: Handles the generation of random strings
 - **ConfigManager**: Manages the configuration for string generation
 - **HistoryManager**: Manages the history of generated strings
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
